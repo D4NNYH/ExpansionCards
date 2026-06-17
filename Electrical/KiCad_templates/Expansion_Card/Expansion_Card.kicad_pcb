@@ -1102,6 +1102,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1533,7 +1534,7 @@
 			(uuid "44223cd5-047e-4c0d-a6a0-b22fdeac0145")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_library/project_Library.3dshapes/USB-C-SMD_XKB_U261-24XN-4BC2SS.wrl"
+		(model "project_library/project_library.3dshapes/USB-C-SMD_XKB_U261-24XN-4BC2SS.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1601,6 +1602,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2055,7 +2057,7 @@
 			(uuid "f59d4360-6fa2-40a8-bd0b-a438d2e66387")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/project_library/project_Library.3dshapes/TYPE-C-SMD_C9900025773.wrl"
+		(model "project_library/project_library.3dshapes/TYPE-C-SMD_C9900025773.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
