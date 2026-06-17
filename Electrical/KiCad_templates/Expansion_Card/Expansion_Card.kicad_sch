@@ -1766,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 138.43 54.61)
+			(xy 143.51 54.61) (xy 138.43 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1866,7 +1866,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 53.34) (xy 36.83 53.34)
+			(xy 31.75 53.34) (xy 36.83 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2274,6 +2274,16 @@
 		)
 		(uuid "3b395642-5689-4c77-95fd-88ecacc7e08e")
 	)
+	(label "USB_DN"
+		(at 99.06 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dc69a3e-72a1-4a21-8faf-b79f6dd2ad53")
+	)
 	(label "TX2+"
 		(at 100.33 69.85 0)
 		(effects
@@ -2304,8 +2314,8 @@
 		)
 		(uuid "46d01f40-eddd-4db5-985b-0a76c2a862ed")
 	)
-	(label "CC"
-		(at 142.24 54.61 180)
+	(label "CC1"
+		(at 143.51 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2314,7 +2324,7 @@
 		)
 		(uuid "4bbf81f5-9e00-46b0-8127-2f7879125010")
 	)
-	(label "Vconn"
+	(label "CC2"
 		(at 99.06 62.23 0)
 		(effects
 			(font
@@ -2364,17 +2374,7 @@
 		)
 		(uuid "5f57b62f-24c9-4d36-9b79-53fcb3883b28")
 	)
-	(label "USB_DP"
-		(at 99.06 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64cf7d78-53f5-4076-be36-59dc7419e3d9")
-	)
-	(label "Vconn"
+	(label "CC2"
 		(at 68.58 60.96 180)
 		(effects
 			(font
@@ -2394,6 +2394,16 @@
 		)
 		(uuid "7183e4e0-6087-4196-a4c8-629c2520f9ed")
 	)
+	(label "USB_DN"
+		(at 68.58 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b6f8087-63b2-4a90-b94d-35f65ed7a550")
+	)
 	(label "TX2-"
 		(at 100.33 67.31 0)
 		(effects
@@ -2404,17 +2414,7 @@
 		)
 		(uuid "80d2cdc1-5a9b-43e7-aa80-8c3eea49e1db")
 	)
-	(label "USB_DN"
-		(at 68.58 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "885c6f1c-86ea-41c1-8110-829e57ca96d9")
-	)
-	(label "USB_DN"
+	(label "USB_DP"
 		(at 99.06 59.69 0)
 		(effects
 			(font
@@ -2422,30 +2422,20 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "92169809-73c8-436f-9c2c-8e86fe1d94d1")
+		(uuid "81edd57d-9fc7-42b9-8359-c50f4720363e")
 	)
 	(label "USB_DP"
-		(at 68.58 55.88 180)
+		(at 68.58 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9381c850-62af-466f-b25a-b9138957f660")
+		(uuid "904560c4-667f-403c-bef7-4d38ad18e8ec")
 	)
-	(label "USB_DN"
-		(at 147.32 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af378dc1-09bc-4499-9f6e-5cfbaff9071e")
-	)
-	(label "CC"
-		(at 33.02 53.34 0)
+	(label "CC1"
+		(at 31.75 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2465,6 +2455,16 @@
 		(uuid "c3dc877b-07e2-42ea-8b97-a2d4932e41b3")
 	)
 	(label "USB_DP"
+		(at 147.32 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e67181ef-afe2-4bed-8b6f-db9f2bc17045")
+	)
+	(label "USB_DN"
 		(at 147.32 59.69 180)
 		(effects
 			(font
@@ -2472,7 +2472,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d3a1869a-a978-409e-ac4d-53491c5f36d6")
+		(uuid "f0ab5539-4fbe-4993-b291-088e04ef4aee")
 	)
 	(label "RX2-"
 		(at 30.48 66.04 0)
@@ -2891,6 +2891,7 @@
 	(symbol
 		(lib_id "easyeda2kicad:TYPE-C24PQT143")
 		(at 123.19 59.69 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2898,7 +2899,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "25845e0e-d2f2-4d89-958d-66e914540cbb")
 		(property "Reference" "USB1"
 			(at 123.19 34.29 0)
@@ -4491,6 +4491,7 @@
 	(symbol
 		(lib_id "easyeda2kicad:U261-241N-4BC2SS")
 		(at 48.26 57.15 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4498,10 +4499,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef6a6ee4-c7cb-4fc5-bcf0-6d985839f146")
 		(property "Reference" "U1"
-			(at 50.4033 35.56 0)
+			(at 46.1167 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4512,7 +4512,7 @@
 			)
 		)
 		(property "Value" "U261-241N-4BC2SS"
-			(at 50.4033 38.1 0)
+			(at 46.1167 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
