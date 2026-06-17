@@ -534,7 +534,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Expansion_Card"
+      "Expansion_Card",
+      "project_library"
     ],
     "pinned_symbol_libs": []
   },

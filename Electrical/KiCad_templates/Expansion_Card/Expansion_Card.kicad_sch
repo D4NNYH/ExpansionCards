@@ -2921,7 +2921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:TYPE-C-SMD_C9900025773"
+		(property "Footprint" "project_library:TYPE-C-SMD_C9900025773"
 			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4522,7 +4522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:USB-C-SMD_XKB_U261-24XN-4BC2SS"
+		(property "Footprint" "project_library:USB-C-SMD_XKB_U261-24XN-4BC2SS"
 			(at 48.26 83.82 0)
 			(hide yes)
 			(show_name no)
